@@ -44,11 +44,10 @@ p {
     font-size: 18px;
 }
 
-img {
-    max-width: 30%;
-    height: 30%;
+.container-1 img {
+    max-width: 320px;
+    height: 220px;
     object-fit: contain;
-
 }
 
 .button1 {
@@ -60,5 +59,42 @@ img {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+
+}
+
+.small-imgs {
+    display: flex;
+    font-size: 18px;
+    width: 800px;
+    color: grey;
+    justify-content: center;
+    text-align: center;
+}
+
+.small-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.small-img img {
+    max-width: 75%;
+    height: 75%;
+    object-fit: contain;
+    border: 5px solid;
+    border-color:#3882F6;    
     border-radius: 8px;
 }
