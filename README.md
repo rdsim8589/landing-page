@@ -1,0 +1,1 @@
+HTML and CSS assignment to replicate a landing page from the odin project.
