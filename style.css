@@ -67,7 +67,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px 300px 50px 300px;
     gap: 20px;
     font-size: 36px;
     color: #1F2937;
@@ -97,4 +97,20 @@ p {
     border: 5px solid;
     border-color:#3882F6;    
     border-radius: 8px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 50px 300px 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+p.signature {
+    text-align: right;
+    font-weight: 800;
 }
