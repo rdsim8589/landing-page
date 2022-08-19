@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
-    padding: 0 50px 0 50px;
+    padding: 0 250px 0 250px;
     align-items: center;
 }
 
@@ -26,4 +26,39 @@ li {
 
 a {
     color: grey;
+}
+
+.container-1 {
+    display: flex;
+    padding: 50px 250px 100px 250px;
+    background-color:#1F2937;
+    gap: 18px;
+    color: white;
+    align-items: center;
+}
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    max-width: 30%;
+    height: 30%;
+    object-fit: contain;
+
+}
+
+.button1 {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
 }
