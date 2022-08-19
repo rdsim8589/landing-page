@@ -114,3 +114,40 @@ p.signature {
     text-align: right;
     font-weight: 800;
 }
+
+.container-4 {
+    background-color: white;
+}
+
+.call-to-action {
+    display: flex;    
+    margin: 50px 250px 100px 250px;
+    padding: 20px 50px 20px 50px;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    border-radius: 8px;
+}
+
+.left4 h2 {
+    margin-bottom: 0;
+}
+
+.left4 p {
+    margin-top:0;
+}
+.right4 .button1 {
+    border: 5px solid;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    background-color:#1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
